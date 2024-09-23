@@ -1,0 +1,108 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/001_create_user_table.sql
+  - changeSet:
+      id: 002
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/002_create_firm_table.sql
+  - changeSet:
+      id: 003
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/003_create_decorator_table.sql
+
+  - changeSet:
+      id: 004
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/004_create_garden_table.sql
+
+  - changeSet:
+      id: 005
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/005_create_appointment_table.sql
+
+  - changeSet:
+      id: 006
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/006_create_decorated_garden_table.sql
+
+  - changeSet:
+      id: 007
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/007_create_owner_table.sql
+
+  - changeSet:
+      id: 008
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/008_create_comments_table.sql
+
+  - changeSet:
+      id: 009
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/009_create_service_table.sql
+
+  - changeSet:
+      id: 010
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/010_create_request_registration_table.sql
+
+  - changeSet:
+      id: 011
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/011_alter_appointments_table.sql
+  - changeSet:
+      id: 012
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/012_alter_appointments_table.sql
+  - changeSet:
+      id: 013
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/013_create_maintenance_task_table.sql
+
+  - changeSet:
+      id: 014
+      author: byDL
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changes/014_alter_appointments_table.sql

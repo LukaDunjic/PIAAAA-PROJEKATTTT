@@ -1,0 +1,6 @@
+CREATE TABLE service (
+     id INT AUTO_INCREMENT PRIMARY KEY,
+     description VARCHAR(255) NOT NULL,
+     firm_id BIGINT NOT NULL,
+     FOREIGN KEY (firm_id) REFERENCES firm(id) ON DELETE CASCADE
+);

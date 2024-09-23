@@ -1,0 +1,17 @@
+prvo pokreni ovo
+npm install @swimlane/ngx-charts
+
+npm install chart.js --save
+npm install ng2-charts --save
+
+{sve isto do poslednjeg samo ovo}
+npm install ng2-charts --save --legacy-peer-deps
+
+npm install @angular/cdk@latest
+
+npm install ng2-charts --save
+
+npm install --save-dev @types/d3-shape @types/d3-scale @types/d3-selection
+npm install ng2-charts --force
+npm install @angular/cdk@latest --force
+npm install --save-dev @types/d3-shape @types/d3-scale @types/d3-selection --force

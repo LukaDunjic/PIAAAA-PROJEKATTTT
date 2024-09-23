@@ -1,0 +1,10 @@
+CREATE TABLE firm (
+   id BIGINT AUTO_INCREMENT PRIMARY KEY,
+   name VARCHAR(100) NOT NULL,
+   address VARCHAR(150) NOT NULL,
+   phone VARCHAR(20),
+   email VARCHAR(100),
+   average_rating DECIMAL(3,2),
+   website_link VARCHAR(150),
+   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
